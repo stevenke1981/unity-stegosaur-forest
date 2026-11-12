@@ -1,0 +1,395 @@
+{
+  "status": "PASS",
+  "blender": "4.5.3 LTS",
+  "unityImport": "NOT_RUN",
+  "sky": {
+    "bytes": 1911073,
+    "sha256": "926a6bb81897919b2924f42407162b8d54be91eab2da3fe7fe19daf308cfa09a"
+  },
+  "preExportAndFbxReimport": {
+    "stegosaur": {
+      "sourceTriangles": 58636,
+      "sourceVertices": 36930,
+      "sourceBones": 35,
+      "sourceActions": {
+        "HeadShake": 2.5,
+        "Roar_Pose": 3.0,
+        "Run": 1.0,
+        "Walk": 2.0
+      },
+      "maxPoseCoordinateError": 0.0,
+      "parts": [
+        {
+          "part": "BackPlate_01",
+          "triangles": 310,
+          "vertices": 259,
+          "minNormalDot": 0.9999997487859149
+        },
+        {
+          "part": "BackPlate_02",
+          "triangles": 539,
+          "vertices": 402,
+          "minNormalDot": 0.9999997781715624
+        },
+        {
+          "part": "BackPlate_03",
+          "triangles": 2260,
+          "vertices": 1556,
+          "minNormalDot": 0.999999698796235
+        },
+        {
+          "part": "BackPlate_04",
+          "triangles": 2086,
+          "vertices": 1426,
+          "minNormalDot": 0.9999997213100693
+        },
+        {
+          "part": "BackPlate_05",
+          "triangles": 1218,
+          "vertices": 830,
+          "minNormalDot": 0.9999997075859746
+        },
+        {
+          "part": "BackPlate_06",
+          "triangles": 2790,
+          "vertices": 1739,
+          "minNormalDot": 0.9999996335367669
+        },
+        {
+          "part": "BackPlate_07",
+          "triangles": 2668,
+          "vertices": 1711,
+          "minNormalDot": 0.9999997177924671
+        },
+        {
+          "part": "BackPlate_08",
+          "triangles": 1732,
+          "vertices": 1145,
+          "minNormalDot": 0.9999997351884178
+        },
+        {
+          "part": "BackPlate_09",
+          "triangles": 838,
+          "vertices": 627,
+          "minNormalDot": 0.9999996908962443
+        },
+        {
+          "part": "BackPlate_10",
+          "triangles": 536,
+          "vertices": 429,
+          "minNormalDot": 0.9999997084701033
+        },
+        {
+          "part": "BackPlate_11",
+          "triangles": 261,
+          "vertices": 214,
+          "minNormalDot": 0.999999695241681
+        },
+        {
+          "part": "Body",
+          "triangles": 2889,
+          "vertices": 1645,
+          "minNormalDot": 0.9999996722441304
+        },
+        {
+          "part": "FrontLeftLeg",
+          "triangles": 5410,
+          "vertices": 3417,
+          "minNormalDot": 0.9999996370514568
+        },
+        {
+          "part": "FrontRightLeg",
+          "triangles": 5737,
+          "vertices": 3595,
+          "minNormalDot": 0.9999996803810167
+        },
+        {
+          "part": "HeadNeck",
+          "triangles": 3906,
+          "vertices": 2505,
+          "minNormalDot": 0.9999997177158113
+        },
+        {
+          "part": "HindLeftLeg",
+          "triangles": 6871,
+          "vertices": 4362,
+          "minNormalDot": 0.999999662863261
+        },
+        {
+          "part": "HindRightLeg",
+          "triangles": 7853,
+          "vertices": 4791,
+          "minNormalDot": 0.9999996750026077
+        },
+        {
+          "part": "Tail",
+          "triangles": 4825,
+          "vertices": 2894,
+          "minNormalDot": 0.9999995123935878
+        },
+        {
+          "part": "TailSpike_Center",
+          "triangles": 1042,
+          "vertices": 806,
+          "minNormalDot": 0.9999997035260502
+        },
+        {
+          "part": "TailSpike_FrontLeft",
+          "triangles": 1825,
+          "vertices": 1419,
+          "minNormalDot": 0.9999996863721501
+        },
+        {
+          "part": "TailSpike_FrontRight",
+          "triangles": 1374,
+          "vertices": 990,
+          "minNormalDot": 0.9999996971011029
+        },
+        {
+          "part": "TailSpike_RearLeft",
+          "triangles": 730,
+          "vertices": 604,
+          "minNormalDot": 0.9999997165004944
+        },
+        {
+          "part": "TailSpike_RearRight",
+          "triangles": 936,
+          "vertices": 699,
+          "minNormalDot": 0.9999997251405626
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 6621260,
+        "sha256": "4f2cca101125e033c2fe9db7409ea33e4a2e7696ee8986e3e95cedb6f0c07d5d",
+        "meshParts": 23,
+        "polygons": 58636,
+        "materialSlots": [
+          "BakedMaterial"
+        ],
+        "boneCount": 35,
+        "clips": {
+          "HeadShake": {
+            "importedName": "SmartRigArmature|SmartRigArmature|HeadShake",
+            "seconds": 2.5,
+            "maxQuaternionStep": 0.26942
+          },
+          "Roar_Pose": {
+            "importedName": "SmartRigArmature|SmartRigArmature|Roar_Pose",
+            "seconds": 3.0,
+            "maxQuaternionStep": 0.04066
+          },
+          "Run": {
+            "importedName": "SmartRigArmature|SmartRigArmature|Run",
+            "seconds": 1.0,
+            "maxQuaternionStep": 0.19986
+          },
+          "Walk": {
+            "importedName": "SmartRigArmature|SmartRigArmature|Walk",
+            "seconds": 2.0,
+            "maxQuaternionStep": 0.12125
+          }
+        },
+        "headVsTailBlenderY": -2.07684
+      }
+    },
+    "tree_small_02": {
+      "sourceDimensions": [
+        2.91227,
+        4.57711,
+        4.27239
+      ],
+      "parts": [
+        {
+          "part": "Trunk",
+          "triangles": 1349
+        },
+        {
+          "part": "Branches",
+          "triangles": 1859
+        },
+        {
+          "part": "Foliage",
+          "triangles": 85903
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 13855548,
+        "sha256": "5fab9be431a495cda055537d0bdb8941a98bd59f99f1b5e1f443454f0392c89c",
+        "meshParts": 3,
+        "polygons": 89111,
+        "materialSlots": [
+          "tree_small_02_branches",
+          "tree_small_02_leaves",
+          "tree_small_02_trunk"
+        ],
+        "lowestVertexMeters": -1e-08
+      }
+    },
+    "pine_sapling_small": {
+      "sourceDimensions": [
+        0.78651,
+        1.29562,
+        0.72678
+      ],
+      "parts": [
+        {
+          "part": "Needles",
+          "triangles": 25465
+        },
+        {
+          "part": "Trunk",
+          "triangles": 185
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 3322428,
+        "sha256": "0ce7bb449e9c1ba8d0d767c5bf7061b47e41aa4caf4e16890553eedb55ced8cd",
+        "meshParts": 2,
+        "polygons": 25650,
+        "materialSlots": [
+          "pine_sapling_small_bark",
+          "pine_sapling_small_twig"
+        ],
+        "lowestVertexMeters": 0.0
+      }
+    },
+    "tree_stump_01": {
+      "sourceDimensions": [
+        1.42555,
+        0.57267,
+        1.59031
+      ],
+      "parts": [
+        {
+          "part": "tree_stump_01",
+          "triangles": 41046
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 5037004,
+        "sha256": "6ed90e14a7a33815495e96af52da5f1487f0dbe3f47ea7ec313259aae29e997f",
+        "meshParts": 1,
+        "polygons": 41046,
+        "materialSlots": [
+          "tree_stump_01"
+        ],
+        "lowestVertexMeters": 6e-08
+      }
+    },
+    "shrub_02_a": {
+      "sourceDimensions": [
+        1.06611,
+        1.37196,
+        1.33346
+      ],
+      "parts": [
+        {
+          "part": "shrub_02_a_LOD1",
+          "triangles": 4670
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 324668,
+        "sha256": "0a473a902b4884f65ac8735c102aaf0568dc06a490e3f005640b41df9fdab7f9",
+        "meshParts": 1,
+        "polygons": 4670,
+        "materialSlots": [
+          "shrub_02"
+        ],
+        "lowestVertexMeters": 0.0
+      }
+    },
+    "shrub_02_b": {
+      "sourceDimensions": [
+        0.90216,
+        1.22401,
+        1.04004
+      ],
+      "parts": [
+        {
+          "part": "shrub_02_b_LOD1",
+          "triangles": 3206
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 229884,
+        "sha256": "87346ff3e5f5ce35326c8d6ced72911d8f5b4bfe7a2ccd9f84015283f19d51f0",
+        "meshParts": 1,
+        "polygons": 3206,
+        "materialSlots": [
+          "shrub_02"
+        ],
+        "lowestVertexMeters": -0.0
+      }
+    },
+    "shrub_03_a": {
+      "sourceDimensions": [
+        0.20062,
+        0.40278,
+        0.1512
+      ],
+      "parts": [
+        {
+          "part": "shrub_03_a_LOD1",
+          "triangles": 1741
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 135052,
+        "sha256": "3123731fb98f47117ca1c1cb45cc5897dea1837ed0a58e42acb32d95ec2a58eb",
+        "meshParts": 1,
+        "polygons": 1741,
+        "materialSlots": [
+          "shrub_03"
+        ],
+        "lowestVertexMeters": -0.0
+      }
+    },
+    "shrub_03_b": {
+      "sourceDimensions": [
+        0.1843,
+        0.3525,
+        0.12256
+      ],
+      "parts": [
+        {
+          "part": "shrub_03_b_LOD1",
+          "triangles": 1471
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 118492,
+        "sha256": "f3c482eba07ac582ce0c8ebfe752b4714182a6dc9ec32997832c65020e9c5b3f",
+        "meshParts": 1,
+        "polygons": 1471,
+        "materialSlots": [
+          "shrub_03"
+        ],
+        "lowestVertexMeters": -0.0
+      }
+    },
+    "shrub_sorrel_01": {
+      "sourceDimensions": [
+        0.3521,
+        0.058,
+        0.14641
+      ],
+      "parts": [
+        {
+          "part": "shrub_sorrel_01_k",
+          "triangles": 3319
+        }
+      ],
+      "fbxReimport": {
+        "bytes": 252428,
+        "sha256": "60b9a35ce3ebaf077e3234e944f872d65b5669cac8a500bdb96f41237b7d53e3",
+        "meshParts": 1,
+        "polygons": 3319,
+        "materialSlots": [
+          "shrub_sorrel_01"
+        ],
+        "lowestVertexMeters": -0.0
+      }
+    }
+  }
+}
