@@ -98,7 +98,7 @@ namespace Dinosaug
             TransformPose modelPose = new TransformPose(model.transform);
             bool[] updateWhenOffscreen = pieces.Select(piece => piece.updateWhenOffscreen).ToArray();
 
-            AnimationClip[] imported = AssetDatabase.LoadAllAssetsAtPath(DinosaurFbx).OfType<AnimationClip>().ToArray();
+            AnimationClip[] imported = AssetDatabase.LoadAllAssetRepresentationsAtPath(DinosaurFbx).OfType<AnimationClip>().ToArray();
             AnimationClip[] clips = ShotNames.Take(4).Select(name => FindClip(imported, name)).ToArray();
             int shotFrames = Mathf.RoundToInt(ShotSeconds * fps);
             int totalFrames = smoke ? ShotNames.Length * 3 : ShotNames.Length * shotFrames;
@@ -262,9 +262,9 @@ namespace Dinosaug
                     fieldOfView = 58f;
                     break;
                 case 1:
-                    position = subject.position + new Vector3(4.0f, Mathf.Lerp(0.86f, 1.13f, curve),
+                    position = subject.position + new Vector3(4.18f, Mathf.Lerp(0.86f, 1.13f, curve),
                         Mathf.Lerp(-0.85f, 1.05f, curve));
-                    focus += Vector3.down * 0.18f + subject.forward * Mathf.Lerp(-0.65f, 0.15f, curve);
+                    focus += Vector3.down * 0.18f + subject.forward * Mathf.Lerp(-0.20f, 0.50f, curve);
                     fieldOfView = 59f;
                     break;
                 case 2:

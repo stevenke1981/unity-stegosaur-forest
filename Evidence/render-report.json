@@ -1,0 +1,188 @@
+{
+    "unityVersion": "6000.3.28f1",
+    "graphicsDevice": "AMD Radeon RX 6800 XT",
+    "graphicsApi": "Direct3D11",
+    "colorSpace": "Gamma",
+    "width": 1280,
+    "height": 720,
+    "frameRate": 24,
+    "frameCount": 300,
+    "smoke": false,
+    "skinnedParts": [
+        "BackPlate_01",
+        "BackPlate_02",
+        "BackPlate_03",
+        "BackPlate_04",
+        "BackPlate_05",
+        "BackPlate_06",
+        "BackPlate_07",
+        "BackPlate_08",
+        "BackPlate_09",
+        "BackPlate_10",
+        "BackPlate_11",
+        "Body",
+        "FrontLeftLeg",
+        "FrontRightLeg",
+        "HeadNeck",
+        "HindLeftLeg",
+        "HindRightLeg",
+        "Tail",
+        "TailSpike_Center",
+        "TailSpike_FrontLeft",
+        "TailSpike_FrontRight",
+        "TailSpike_RearLeft",
+        "TailSpike_RearRight"
+    ],
+    "shots": [
+        {
+            "name": "Walk",
+            "clip": "SmartRigArmature|Walk",
+            "measuredBone": "Bone_029",
+            "clipSeconds": 2.0,
+            "boneRotationDegrees": 13.750983238220215,
+            "firstFrame": 0,
+            "frameCount": 60,
+            "sourceFrames": 60,
+            "anchorStart": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -9.299999237060547
+            },
+            "anchorEnd": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -6.799999713897705
+            },
+            "cameraStart": {
+                "x": -4.0,
+                "y": 1.5499999523162842,
+                "z": -7.59999942779541
+            },
+            "cameraEnd": {
+                "x": -3.6500000953674318,
+                "y": 1.7999999523162842,
+                "z": -4.449999809265137
+            }
+        },
+        {
+            "name": "Run",
+            "clip": "SmartRigArmature|Run",
+            "measuredBone": "Bone_029",
+            "clipSeconds": 1.0,
+            "boneRotationDegrees": 22.689128875732423,
+            "firstFrame": 60,
+            "frameCount": 60,
+            "sourceFrames": 60,
+            "anchorStart": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -6.799999713897705
+            },
+            "anchorEnd": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.10000014305114746
+            },
+            "cameraStart": {
+                "x": 4.179999828338623,
+                "y": 0.8600000143051148,
+                "z": -7.649999618530273
+            },
+            "cameraEnd": {
+                "x": 4.179999828338623,
+                "y": 1.1299999952316285,
+                "z": 1.1500000953674317
+            }
+        },
+        {
+            "name": "HeadShake",
+            "clip": "SmartRigArmature|HeadShake",
+            "measuredBone": "Bone_024",
+            "clipSeconds": 2.5,
+            "boneRotationDegrees": 16.60184097290039,
+            "firstFrame": 120,
+            "frameCount": 60,
+            "sourceFrames": 60,
+            "anchorStart": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.10000014305114746
+            },
+            "anchorEnd": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.10000014305114746
+            },
+            "cameraStart": {
+                "x": -3.0,
+                "y": 1.8600000143051148,
+                "z": 4.9800004959106449
+            },
+            "cameraEnd": {
+                "x": -2.549999952316284,
+                "y": 1.7400000095367432,
+                "z": 4.9800004959106449
+            }
+        },
+        {
+            "name": "Roar_Pose",
+            "clip": "SmartRigArmature|Roar_Pose",
+            "measuredBone": "Bone_024",
+            "clipSeconds": 3.0,
+            "boneRotationDegrees": 16.61579132080078,
+            "firstFrame": 180,
+            "frameCount": 60,
+            "sourceFrames": 60,
+            "anchorStart": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.10000014305114746
+            },
+            "anchorEnd": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.10000014305114746
+            },
+            "cameraStart": {
+                "x": 3.0999999046325685,
+                "y": 1.100000023841858,
+                "z": 5.300000190734863
+            },
+            "cameraEnd": {
+                "x": 2.7200000286102297,
+                "y": 1.4299999475479127,
+                "z": 5.050000190734863
+            }
+        },
+        {
+            "name": "Orbit",
+            "clip": "SmartRigArmature|Walk",
+            "measuredBone": "Bone_029",
+            "clipSeconds": 2.0,
+            "boneRotationDegrees": 13.750983238220215,
+            "firstFrame": 240,
+            "frameCount": 60,
+            "sourceFrames": 60,
+            "anchorStart": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.10000014305114746
+            },
+            "anchorEnd": {
+                "x": -0.9910897016525269,
+                "y": 0.0,
+                "z": 1.6127252578735352
+            },
+            "cameraStart": {
+                "x": 3.455322504043579,
+                "y": 2.380000114440918,
+                "z": 3.2044427394866945
+            },
+            "cameraEnd": {
+                "x": 0.8565958142280579,
+                "y": 2.6500000953674318,
+                "z": -3.9627161026000978
+            }
+        }
+    ]
+}

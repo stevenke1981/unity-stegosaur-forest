@@ -1,0 +1,15 @@
+{
+  "decode": "PASS",
+  "streamCheck": "PASS",
+  "expectedFrameCount": 300,
+  "sha256": "118fff89c9a7ebd97b959221a2ecd6418a518f2d3a55a5f2f9ee5c3d5f9d6c8c",
+  "stream": {
+    "codec_name": "h264",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "duration": "12.500000",
+    "nb_read_frames": "300"
+  }
+}

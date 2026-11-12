@@ -5,13 +5,16 @@
 - [Unity 操作與驗證紀錄](docs/操作紀錄.md)
 - [素材來源與授權](docs/素材來源.md)
 
-目前素材、場景建構器與渲染腳本已備妥。實際 Unity 匯入與渲染的狀態見[操作紀錄](docs/操作紀錄.md)。
+影片由 Unity 6000.3.28f1 實際渲染，共 12.5 秒，1280×720、24 fps，無音軌。
+
+- [下載五鏡頭 MP4](media/stegosaur-forest-unity.mp4?raw=true)
+- [查看成片畫格](Evidence/shot-contact.jpg)
 
 ## 開啟專案
 
 1. 安裝 [Unity 6000.3.28f1](https://unity.com/releases/editor/whats-new/6000.3.28f1)，並在 [Unity Hub 啟用可用授權](https://docs.unity.com/hub/manage-license)。
 2. 在 Unity Hub 選 **Projects → Add → Add project from disk**，指向含有 `Assets`、`Packages`、`ProjectSettings` 的 repo 根目錄。等 Unity 完成匯入和腳本編譯。
-3. 在 Editor 選 **Dinosaug → Build Forest Scene**。開啟 `Assets/Scenes/StegosaurForest.unity` 後，可以在 Hierarchy 調整劍龍、森林物件和燈光。劍龍零件的網格資產在 `Assets/Generated/DinosaurParts/`，可重用的模型 Prefab 在 `Assets/Generated/Prefabs/`。
+3. 在 Project 視窗開啟已存入 repo 的 `Assets/Scenes/StegosaurForest.unity`。若需要從來源重新組裝，選 **Dinosaug → Build Forest Scene**。開啟場景後，可以在 Hierarchy 調整劍龍、森林物件和燈光。劍龍零件的網格資產在 `Assets/Generated/DinosaurParts/`，可重用的模型 Prefab 在 `Assets/Generated/Prefabs/`。
 4. 選 **Dinosaug → Render Forest Smoke Test** 先輸出少量預覽畫格，確認構圖後，再選 **Dinosaug → Render Forest Film** 輸出完整 PNG 序列。若場景已在 Editor 開啟，選單會取用目前畫面中的修改。批次渲染讀取已儲存的場景。
 
 ## 分件設計

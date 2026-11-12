@@ -245,7 +245,8 @@ namespace Dinosaug
                 if (bakeSkin && renderer is SkinnedMeshRenderer skinned)
                 {
                     var sampled = new Mesh();
-                    skinned.BakeMesh(sampled);
+                    // TransformPoint below applies the imported FBX scale once.
+                    skinned.BakeMesh(sampled, useScale: true);
                     if (sampled.vertexCount != 0)
                     {
                         sampled.RecalculateBounds();
@@ -531,6 +532,14 @@ namespace Dinosaug
             sun.shadowStrength = .83f;
             sun.shadowBias = .035f;
             sun.shadowNormalBias = .18f;
+
+            var fill = new GameObject("Forest Bounce Light").AddComponent<Light>();
+            fill.transform.SetParent(lighting, false);
+            fill.transform.rotation = Quaternion.Euler(26f, 128f, 0f);
+            fill.type = LightType.Directional;
+            fill.color = new Color(.83f, .90f, 1f);
+            fill.intensity = .38f;
+            fill.shadows = LightShadows.None;
 
             RenderSettings.skybox = sky;
             RenderSettings.sun = sun;
