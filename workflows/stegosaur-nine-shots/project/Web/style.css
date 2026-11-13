@@ -1,0 +1,58 @@
+:root {
+    color-scheme: dark;
+    font-family: system-ui, sans-serif;
+    color: #e8eee6;
+    background: #111b17;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1600px; margin-inline: auto; }
+.stage { position: relative; aspect-ratio: 16 / 9; background: #0b130f; }
+#viewport, canvas { display: block; width: 100%; height: 100%; }
+.readout {
+    position: absolute;
+    bottom: 1.15rem;
+    left: 1.3rem;
+    right: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+    text-shadow: 0 1px 8px #060a08, 0 1px 3px #060a08;
+    font-size: .9rem;
+}
+.transport { padding: 1rem 1.3rem 1.6rem; }
+header, .scrubber, .options { display: flex; align-items: center; gap: .8rem; }
+header { justify-content: space-between; margin-bottom: .7rem; flex-wrap: wrap; }
+h1 { margin: 0; font-size: 1.25rem; }
+button, .options { font: inherit; font-size: .91rem; }
+button {
+    cursor: pointer;
+    background: #22382e;
+    color: #ebf3e8;
+    border: 1px solid #547060;
+    border-radius: .45rem;
+    padding: .45rem .7rem;
+    white-space: nowrap;
+}
+button[aria-pressed="true"] {
+    border-color: #c5df9e;
+    color: #14271b;
+    background: #c5df9e;
+}
+#play { min-width: 4.3rem; }
+#seek { flex: 1 1 60%; min-width: 0; }
+#time, #shot-time { font-variant-numeric: tabular-nums; }
+input { accent-color: #c5df9e; }
+button:focus-visible, input:focus-visible { outline: 2px solid #e7cc8f; outline-offset: 3px; }
+button:disabled { opacity: .6; cursor: default; }
+#shots { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .85rem; }
+#status:empty { display: none; }
+#status { margin: .85rem 0 0; color: #efce9e; }
+body.capture .stage { width: 100vw; height: 100vh; aspect-ratio: auto; }
+body.capture main { max-width: none; }
+body.capture .transport, body.capture .readout { display: none; }
+@media (max-width: 600px) {
+    .transport { padding-inline: .8rem; }
+    .readout { left: .75rem; right: .75rem; bottom: .6rem; }
+    .options { gap: .5rem; }
+}

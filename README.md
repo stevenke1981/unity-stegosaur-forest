@@ -1,11 +1,14 @@
 # Unity 劍龍森林
 
-在 Unity 6.3 LTS 裡組裝有骨架的劍龍與森林場景，並用五個鏡頭拍攝走路、奔跑、甩頭、抬頭吼叫姿勢和環繞。劍龍的可編輯零件共用同一副骨架，環境物件可逐個調整。
+在 Unity 6.3 LTS 裡組裝有骨架的劍龍與森林場景。劍龍的可編輯零件共用同一副骨架，環境物件可逐個調整。
 
+- [最新版九鏡頭製作流程](workflows/stegosaur-nine-shots/README.md) 提供 Blender 30K 四角面重建、前腳蒙皮修正、Unity HDRP／Three.js 渲染、FFmpeg 合成及驗證腳本。
 - [Unity 操作與驗證紀錄](docs/操作紀錄.md)
 - [素材來源與授權](docs/素材來源.md)
 
-影片由 Unity 6000.3.28f1 實際渲染，共 12.5 秒，1280×720、24 fps，無音軌。
+## 原始五鏡頭專案
+
+倉庫根目錄的 Unity 專案有走路、奔跑、甩頭、抬頭吼叫姿勢和環繞五個鏡頭。影片由 Unity 6000.3.28f1 實際渲染，共 12.5 秒，1280×720、24 fps，無音軌。
 
 - [下載五鏡頭 MP4](media/stegosaur-forest-unity.mp4?raw=true)
 - [查看成片畫格](Evidence/shot-contact.jpg)

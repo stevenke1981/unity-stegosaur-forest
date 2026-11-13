@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>劍龍森林｜Three.js</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./style.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "./node_modules/three/build/three.module.min.js",
+            "three/addons/": "./node_modules/three/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <main>
+        <div class="stage">
+            <div id="viewport" aria-label="劍龍森林 3D 畫面"></div>
+            <div class="readout"><span id="shot-name">劍龍森林</span><output id="shot-time">00:00</output></div>
+        </div>
+        <section class="transport" aria-label="劍龍鏡頭與播放控制">
+            <header>
+                <h1>劍龍森林</h1>
+                <div class="options">
+                    <label><input type="checkbox" id="spring" checked disabled> 尾巴物理</label>
+                    <label><input type="checkbox" id="sound" disabled> 吼叫音效</label>
+                </div>
+            </header>
+            <div class="scrubber">
+                <button type="button" id="play" disabled>播放</button>
+                <input type="range" id="seek" aria-label="影片影格" min="0" max="0" value="0" disabled>
+                <output for="seek" id="time">00:00 / 00:00</output>
+            </div>
+            <div id="shots" role="group" aria-label="九個鏡頭"></div>
+            <p id="status" role="status">正在載入模型與森林…</p>
+        </section>
+    </main>
+    <audio id="roar" preload="auto" src="./assets/roar.m4a"></audio>
+    <script type="module" src="./viewer.js"></script>
+</body>
+</html>
