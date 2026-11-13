@@ -1,0 +1,208 @@
+{
+  "models": [
+    {
+      "id": "stegosaur",
+      "fbx": "Assets/Source/Dinosaur/CreatureStegosaur.fbx",
+      "yawDegrees": 0.0,
+      "materials": [
+        {
+          "slot": "BakedMaterial",
+          "creatureSkin": true,
+          "albedo": "Assets/Source/Textures/BakedMaterial/Albedo.png",
+          "normal": "Assets/Source/Textures/BakedMaterial/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/BakedMaterial/MetallicGloss.png",
+          "cutout": false,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        },
+        {
+          "slot": "LipTransition",
+          "creatureSkin": true,
+          "detailStrength": 0.46,
+          "albedo": "Assets/Source/Textures/BakedMaterial/Albedo.png",
+          "normal": "Assets/Source/Textures/BakedMaterial/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/BakedMaterial/MetallicGloss.png",
+          "doubleSided": true,
+          "normalScale": 0.38
+        },
+        {
+          "slot": "MouthLining",
+          "creatureSkin": true,
+          "wetness": 0.06,
+          "albedo": "Assets/Source/Textures/Mouth/MouthLining.png"
+        },
+        {
+          "slot": "Tongue",
+          "creatureSkin": true,
+          "wetness": 0.36,
+          "albedo": "Assets/Source/Textures/Mouth/Tongue.png"
+        }
+      ]
+    },
+    {
+      "id": "tree_small_02",
+      "fbx": "Assets/Source/Environment/tree_small_02.fbx",
+      "materials": [
+        {
+          "slot": "tree_small_02_branches",
+          "albedo": "Assets/Source/Textures/tree_small_02_branches/Albedo.png",
+          "normal": "Assets/Source/Textures/tree_small_02_branches/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/tree_small_02_branches/MetallicGloss.png",
+          "cutout": false,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        },
+        {
+          "slot": "tree_small_02_leaves",
+          "albedo": "Assets/Source/Textures/tree_small_02_leaves/Albedo.png",
+          "normal": "Assets/Source/Textures/tree_small_02_leaves/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/tree_small_02_leaves/MetallicGloss.png",
+          "cutout": true,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        },
+        {
+          "slot": "tree_small_02_trunk",
+          "albedo": "Assets/Source/Textures/tree_small_02_trunk/Albedo.jpg",
+          "normal": "Assets/Source/Textures/tree_small_02_trunk/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/tree_small_02_trunk/MetallicGloss.png",
+          "cutout": false,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "pine_sapling_small",
+      "fbx": "Assets/Source/Environment/pine_sapling_small.fbx",
+      "materials": [
+        {
+          "slot": "pine_sapling_small_bark",
+          "albedo": "Assets/Source/Textures/pine_sapling_small_bark/Albedo.png",
+          "normal": "Assets/Source/Textures/pine_sapling_small_bark/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/pine_sapling_small_bark/MetallicGloss.png",
+          "cutout": false,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        },
+        {
+          "slot": "pine_sapling_small_twig",
+          "albedo": "Assets/Source/Textures/pine_sapling_small_twig/Albedo.png",
+          "normal": "Assets/Source/Textures/pine_sapling_small_twig/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/pine_sapling_small_twig/MetallicGloss.png",
+          "cutout": true,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "tree_stump_01",
+      "fbx": "Assets/Source/Environment/tree_stump_01.fbx",
+      "materials": [
+        {
+          "slot": "tree_stump_01",
+          "albedo": "Assets/Source/Textures/tree_stump_01/Albedo.jpg",
+          "normal": "Assets/Source/Textures/tree_stump_01/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/tree_stump_01/MetallicGloss.png",
+          "cutout": false,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "shrub_02_a",
+      "fbx": "Assets/Source/Environment/shrub_02_a.fbx",
+      "materials": [
+        {
+          "slot": "shrub_02",
+          "albedo": "Assets/Source/Textures/shrub_02/Albedo.png",
+          "normal": "Assets/Source/Textures/shrub_02/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/shrub_02/MetallicGloss.png",
+          "cutout": true,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.5
+        }
+      ]
+    },
+    {
+      "id": "shrub_02_b",
+      "fbx": "Assets/Source/Environment/shrub_02_b.fbx",
+      "materials": [
+        {
+          "slot": "shrub_02",
+          "albedo": "Assets/Source/Textures/shrub_02/Albedo.png",
+          "normal": "Assets/Source/Textures/shrub_02/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/shrub_02/MetallicGloss.png",
+          "cutout": true,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.5
+        }
+      ]
+    },
+    {
+      "id": "shrub_03_a",
+      "fbx": "Assets/Source/Environment/shrub_03_a.fbx",
+      "materials": [
+        {
+          "slot": "shrub_03",
+          "albedo": "Assets/Source/Textures/shrub_03/Albedo.png",
+          "normal": "Assets/Source/Textures/shrub_03/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/shrub_03/MetallicGloss.png",
+          "cutout": true,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "shrub_03_b",
+      "fbx": "Assets/Source/Environment/shrub_03_b.fbx",
+      "materials": [
+        {
+          "slot": "shrub_03",
+          "albedo": "Assets/Source/Textures/shrub_03/Albedo.png",
+          "normal": "Assets/Source/Textures/shrub_03/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/shrub_03/MetallicGloss.png",
+          "cutout": true,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "shrub_sorrel_01",
+      "fbx": "Assets/Source/Environment/shrub_sorrel_01.fbx",
+      "materials": [
+        {
+          "slot": "shrub_sorrel_01",
+          "albedo": "Assets/Source/Textures/shrub_sorrel_01/Albedo.png",
+          "normal": "Assets/Source/Textures/shrub_sorrel_01/Normal.png",
+          "packedMetallicGloss": "Assets/Source/Textures/shrub_sorrel_01/MetallicGloss.png",
+          "cutout": true,
+          "cutoff": 0.45,
+          "doubleSided": true,
+          "normalScale": 1.0
+        }
+      ]
+    }
+  ],
+  "ground": {
+    "albedo": "Assets/Source/Ground/Albedo.jpg",
+    "normal": "Assets/Source/Ground/Normal.jpg",
+    "packedMetallicGloss": "Assets/Source/Ground/MetallicGloss.png"
+  },
+  "sky": "Assets/Source/Lighting/ForestSky.hdr"
+}
